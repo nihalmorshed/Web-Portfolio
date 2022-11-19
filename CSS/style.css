@@ -1,0 +1,140 @@
+body{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    margin: 0;
+}
+blockquote{
+    font-style: italic;
+    font-weight: 600;}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    
+}
+ p{
+    color: rgb(87, 85, 85);
+ }
+ p::selection{
+    background-color: plum;
+    color: white;
+ }
+ .dreambig p{
+    color: black;
+ }
+.dreambig {
+    height: 500px;
+    padding-bottom: 300px;
+}
+.topbanner {
+    height: 500px;
+    padding-bottom: 210px;
+}
+#name{
+    color: blueviolet;
+}
+#topic{
+    color: #f00;
+}
+.lefthalf{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.righthalf{
+    float: right;
+    width: 40%;
+}
+.righthalf img{
+    width: 100%;
+}
+.topbanner{
+    background-image: url("/img/top-banner.png");
+    background-repeat: no-repeat;
+
+}
+.linkbutton{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient( 135deg, #71B7E6 10%, #9B59B6 100%);
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.imageleft{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.imageleft img{
+    width: 100%;
+}
+.textright{
+    float: right;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#Dreamjob{
+    color: cornflowerblue;
+}
+.dreambig{
+    background-image: url("/img/kindpng_1295492.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience{
+    height: 800px;
+    font-size: 1.3em;
+    background-image: url("/img/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.card{
+    width: 39%;
+    float: left;
+    margin-left: 4%;
+    color: slateblue;
+    margin-right: 4%;
+    box-shadow: 10px 10px 40px salmon;
+    border-radius: 5px;
+    border-left: 5px solid;
+    height: 80%;
+    padding: 10px 15px;
+
+}
+.card p{
+    /* text-align: justify; */
+    padding: 5px 10px;
+}
+.flutter{
+    
+    float: left;
+    border-image: Linear-gradient( 0deg, orangered 10%, yellow );
+    border-image-slice: 1;
+}
+.web{
+    float: right;
+    border-image: Linear-gradient( 0deg, deeppink 10%, darkturquoise);
+    border-image-slice: 1;
+}
+.flute{
+    color: orangered;
+    font-size: 1.5em;
+}
+footer{
+    background-color: indianred;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p{
+    color: white;
+    font-size: 1.2em;
+}
+#expheading{
+    color: cornflowerblue;
+    margin-left: 50px;
+}
