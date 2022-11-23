@@ -138,3 +138,71 @@ footer p{
     color: cornflowerblue;
     margin-left: 50px;
 }
+
+
+/* Media Query */
+@media screen and (max-width: 1180px) {
+    .card p{
+        font-size: 16px;
+    }
+    .card{
+        height: 66%;
+        width: 37%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .card p{
+        font-size: 15px;
+    }
+    .card{
+        height: 68%;
+        width: 36%;
+    }
+}
+@media screen and (max-width: 950px) {
+    .card p{
+        font-size: 14px;
+    }
+    .card{
+        height: 69%;
+        width: 35%;
+    }
+}
+@media screen and (max-width: 821px) {
+    .card p{
+        font-size: 12px;
+    }
+    .dreambig{
+        margin-bottom: 100px;
+    }
+    .card{
+        height: 70%;
+        width: 36%;
+    }
+}
+@media screen and (max-width: 675px) {
+    .card p{
+        font-size: 12px;
+    }
+    .dreambig{
+        margin-bottom: 120px;
+    }
+    .card{
+        height: 80%;
+        width: 36%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .card p{
+        font-size: 10px;
+    }
+    .dreambig{
+        margin-bottom: 140px;
+    }
+    .card{
+        height: 62%;
+        width: 36%;
+    }
+}
