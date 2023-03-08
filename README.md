@@ -1,4 +1,4 @@
 # Web-Portfolio
-# For your kind information,this is a responsive webpage. 
-Checkout the website here:
-https://nihalmorshed.github.io/Web-Portfolio/
+## This is a responsive personal portfolio site. 
+
+<a href="https://nihalmorshed.github.io/Web-Portfolio/">Checkout the website here</a>
